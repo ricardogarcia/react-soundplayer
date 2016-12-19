@@ -33,7 +33,7 @@
     "hoist-non-react-statics": "^1.2.0",
     "object-assign": "^4.0.1",
     "react": "^15.3.0",
-    "soundcloud-audio": "git://github.com/ricardogarcia/soundcloud-audio"
+    "soundcloud-audio": "git://github.com/ricardogarcia/soundcloud-audio.js"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
