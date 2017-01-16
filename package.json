@@ -1,6 +1,6 @@
 {
-  "name": "react-soundplayer",
-  "version": "1.0.0-rc4",
+  "name": "vatomic-react-soundplayer",
+  "version": "1.0.1",
   "description": "Create custom SoundCloud players with React",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/soundblogs/react-soundplayer.git"
+    "url": "git://github.com/ricardogarcia/react-soundplayer.git"
+  },
+  "publishConfig": {
+    "registry": "http://devops.vatomic.io:4873/"
   },
   "scripts": {
     "build-js": "rm -rf ./lib && babel src -d lib",
@@ -33,7 +36,7 @@
     "hoist-non-react-statics": "^1.2.0",
     "object-assign": "^4.0.1",
     "react": "^15.3.0",
-    "soundcloud-audio": "git://github.com/ricardogarcia/soundcloud-audio.js"
+    "vatomic-soundcloud-audio": "1.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
