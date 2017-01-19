@@ -14,8 +14,8 @@
 }
 .sb-soundplayer-cover:after {
     content: '';
-    background: -webkit-linear-gradient(rgba(0,0,0,.05), rgba(0,0,0,.35));
-    background: linear-gradient(rgba(0,0,0,.05), rgba(0,0,0,.35));
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .05), rgba(0, 0, 0, .35));
+    background: linear-gradient(rgba(0, 0, 0, .05), rgba(0, 0, 0, .35));
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -40,7 +40,7 @@
     font-size: 18px;
 }
 .sb-soundplayer-cover-logo {
-    color: rgba(255,255,255,.9);
+    color: rgba(255, 255, 255, .9);
     width: 100px;
     height: 14px;
     position: absolute;

@@ -1,6 +1,6 @@
 import React, { PropTypes, Component } from 'react';
 import ClassNames from 'classnames';
-import SoundCloudAudio from 'soundcloud-audio';
+import SoundCloudAudio from 'vatomic-soundcloud-audio';
 import { PrevIconSVG } from './Icons';
 
 class PrevButton extends Component {

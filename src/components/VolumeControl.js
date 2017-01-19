@@ -1,5 +1,5 @@
 import React, { PropTypes, Component } from 'react';
-import SoundCloudAudio from 'soundcloud-audio';
+import SoundCloudAudio from 'vatomic-soundcloud-audio';
 import ClassNames from 'classnames';
 import { VolumeIconLoudSVG, VolumeIconMuteSVG } from './Icons';
 

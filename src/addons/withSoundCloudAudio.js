@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SoundCloudAudio from 'soundcloud-audio';
+import SoundCloudAudio from 'vatomic-soundcloud-audio';
 import hoistStatics from 'hoist-non-react-statics';
 import { stopAllOther, addToPlayedStore } from '../utils/audioStore.js';
 
@@ -58,7 +58,7 @@ export default function withSoundCloudAudio (WrappedComponent) {
             if (streamUrl) {
                 soundCloudAudio.preload(streamUrl);
             } else if (resolveUrl) {
-                soundCloudAudio.resolve(resolveUrl, (data) => {
+                soundCloudAudio.resolveUrl(resolveUrl, (data) => {
                     if (!this.mounted) {
                         return;
                     }
